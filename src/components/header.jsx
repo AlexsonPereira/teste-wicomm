@@ -25,7 +25,10 @@ export const Header = () => {
                 </div>
                 <img className="w-[24px] h-[24px] cursor-pointer" src={user} alt="Icone Usuario Perfil" />
                 <img className="w-[24px] h-[24px] cursor-pointer" src={heart} alt="Icone de favoritos" />
-                <img className="w-[24px] h-[24px] cursor-pointer" src={cart} alt="Icone carrinho" />
+                <div className="relative">
+                    <img className="w-[24px] h-[24px] cursor-pointer" src={cart} alt="Icone carrinho" />
+                    <span className="absolute top-0 -right-[8px] text-[10px] bg-pink rounded-full w-[15px] text-center text-white">0</span>
+                </div>
             </div>
         </div>
     </header>
