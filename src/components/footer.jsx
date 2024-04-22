@@ -29,7 +29,7 @@ export const Footer = () => {
                 </div>
             </div>
             <div className="flex gap-[60px]">
-                <div className="text-[#4F4F4F]">
+                <div className="text-gray1">
                     <h3 >SOBRE NÓS</h3>
                     <ul className="text-sm mt-5 flex flex-col gap-[14px]">
                         <li>Quem somos</li>
@@ -41,7 +41,7 @@ export const Footer = () => {
                         <li>Trabalhe com a gente</li>
                     </ul>
                 </div>
-                <div className="text-[#4F4F4F]">
+                <div className="text-gray1">
                     <h3>MINHA CONTA</h3>
                     <ul className="text-sm mt-5 flex flex-col gap-[14px]">
                         <li>Meus Dados</li>
@@ -49,7 +49,7 @@ export const Footer = () => {
                         <li>Login</li>
                     </ul>
                 </div>
-                <div className="text-[#4F4F4F]">
+                <div className="text-gray1">
                     <h3>SUPORTE E POLÍTICAS</h3>
                     <ul className="text-sm mt-5 flex flex-col gap-[14px]">
                         <li>Trocas e Devoluções</li>
@@ -86,7 +86,7 @@ export const Footer = () => {
 
             </div>
         </section>
-        <section className="text-center text-xs text-[#4F4F4F] pt-[32px] border-t-[1px] border-black" >
+        <section className="text-center text-xs text-gray1 pt-[32px] border-t-[1px] border-black" >
             <p>Somos Sonho LTA - Estrada do Campo D`areia, 182 - Pechincha - Rio de Janeiro/RJ - CEP: 22.743-310</p>
             <p>CNPJ:28.445.729/0081-75 | © 2024 Todos dos direitos reservados</p>
             <div className="flex justify-center gap-10 mt-6">
